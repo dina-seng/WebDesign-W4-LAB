@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+
+      body{
+        margin: 0;
+        padding: 0;
+      }
+  
+      .main {
+        height: 100vh;
+        background: #25384B;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3em 0 3em;
+        gap: 3em;
+      }
+
+      .left-section {
+        background: #A3CFCC;
+        flex-grow: 2;
+        
+      }
+
+      .right-section {
+        height: auto;
+        background: #F7CFB6;
+        width: 10em;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        background: #86C2DE;
+        height: 100px;
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <section class="left-section"></section>
+      <section class="right-section">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </section>
+    </div>
+  </body>
+</html>
